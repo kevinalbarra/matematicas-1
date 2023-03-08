@@ -1,0 +1,99 @@
+var _____WB$wombat$assign$function_____ = function(name) {return (self._wb_wombat && self._wb_wombat.local_init && self._wb_wombat.local_init(name)) || self[name]; };
+if (!self.__WB_pmw) { self.__WB_pmw = function(obj) { this.__WB_source = obj; return this; } }
+{
+  let window = _____WB$wombat$assign$function_____("window");
+  let self = _____WB$wombat$assign$function_____("self");
+  let document = _____WB$wombat$assign$function_____("document");
+  let location = _____WB$wombat$assign$function_____("location");
+  let top = _____WB$wombat$assign$function_____("top");
+  let parent = _____WB$wombat$assign$function_____("parent");
+  let frames = _____WB$wombat$assign$function_____("frames");
+  let opener = _____WB$wombat$assign$function_____("opener");
+
+jQuery.validator.setDefaults({
+
+
+  debug: true
+
+
+});
+
+
+jQuery.extend(jQuery.validator.messages, {
+
+
+    required: "<span style='color: red'>Este campo es requerido</span>",
+
+
+    remote: "Please fix this field.",
+
+
+    email: "<span style='color: red'>Correo electrónico inválido.</span>",
+
+
+    url: "Please enter a valid URL.",
+
+
+    date: "Please enter a valid date.",
+
+
+    dateISO: "Please enter a valid date (ISO).",
+
+
+    number: "<span style='color: red'>Digite solo números, sin puntos ni comas</span>",
+
+
+    digits: "Please enter only digits.",
+
+
+    creditcard: "Please enter a valid credit card number.",
+
+
+    equalTo: "Please enter the same value again.",
+
+
+    accept: "Please enter a value with a valid extension.",
+
+
+    maxlength: jQuery.validator.format("Please enter no more than {0} characters."),
+
+
+    minlength: jQuery.validator.format("Please enter at least {0} characters."),
+
+
+    rangelength: jQuery.validator.format("Please enter a value between {0} and {1} characters long."),
+
+
+    range: jQuery.validator.format("Please enter a value between {0} and {1}."),
+
+
+    max: jQuery.validator.format("Please enter a value less than or equal to {0}."),
+
+
+    min: jQuery.validator.format("Please enter a value greater than or equal to {0}.")
+
+
+});
+
+}
+/*
+     FILE ARCHIVED ON 11:21:02 Jun 01, 2020 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 22:44:15 May 03, 2021.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  load_resource: 182.249 (2)
+  RedisCDXSource: 1.316
+  PetaboxLoader3.datanode: 340.474 (5)
+  exclusion.robots: 0.33
+  exclusion.robots.policy: 0.307
+  CDXLines.iter: 31.962 (3)
+  esindex: 0.021
+  LoadShardBlock: 310.386 (3)
+  PetaboxLoader3.resolve: 99.482 (2)
+  captures_list: 349.641
+*/

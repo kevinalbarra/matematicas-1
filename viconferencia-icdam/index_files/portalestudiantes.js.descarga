@@ -1,0 +1,117 @@
+var _____WB$wombat$assign$function_____ = function(name) {return (self._wb_wombat && self._wb_wombat.local_init && self._wb_wombat.local_init(name)) || self[name]; };
+if (!self.__WB_pmw) { self.__WB_pmw = function(obj) { this.__WB_source = obj; return this; } }
+{
+  let window = _____WB$wombat$assign$function_____("window");
+  let self = _____WB$wombat$assign$function_____("self");
+  let document = _____WB$wombat$assign$function_____("document");
+  let location = _____WB$wombat$assign$function_____("location");
+  let top = _____WB$wombat$assign$function_____("top");
+  let parent = _____WB$wombat$assign$function_____("parent");
+  let frames = _____WB$wombat$assign$function_____("frames");
+  let opener = _____WB$wombat$assign$function_____("opener");
+
+var modalPortal = $("[name=modalPortal]");
+
+var aulaextendida=function(){
+    modalPortal.find('[name=tituloModal]').html('Por favor seleccione sede');
+    modalPortal.find('[name=linkBa]').val('http://aulavirtual.unisimonbolivar.edu.co/index.html');
+    modalPortal.find('[name=tipoBa]').val('_blank');
+    modalPortal.find('[name=linkCu]').val('http://aulaextendida.unisimoncucuta.edu.co/intro/');
+    modalPortal.find('[name=tipoCu]').val('_blank');
+    
+    modalPortal.modal();
+};
+
+var portaladministrativo=function(url_barranquilla){
+    modalPortal.find('[name=tituloModal]').html('Por favor seleccione sede');
+    modalPortal.find('[name=linkBa]').val(url_barranquilla);
+    modalPortal.find('[name=tipoBa]').val('_self');
+    modalPortal.find('[name=linkCu]').val('http://academico.unisimoncucuta.edu.co/');
+    modalPortal.find('[name=tipoCu]').val('_self');
+    
+    modalPortal.modal();
+    
+};
+
+var portalestudiantes=function(url_barranquilla){
+    modalPortal.find('[name=tituloModal]').html('Por favor seleccione sede');
+    modalPortal.find('[name=linkBa]').val(url_barranquilla);
+    modalPortal.find('[name=tipoBa]').val('_self');
+    modalPortal.find('[name=linkCu]').val('http://matricula.unisimoncucuta.edu.co/websiaa/index.php');
+    modalPortal.find('[name=tipoCu]').val('_self');
+    
+    modalPortal.modal();
+    
+};
+
+var portaltrabajodesdecasa=function(url_barranquilla){
+    modalPortal.find('[name=tituloModal]').html('Por favor seleccione sede');
+    modalPortal.find('[name=linkBa]').val(url_barranquilla);
+    modalPortal.find('[name=tipoBa]').val('_self');
+    modalPortal.find('[name=linkCu]').val('https://www.unisimon.edu.co/cucuta/servicios/trabajodesdecasa');
+    modalPortal.find('[name=tipoCu]').val('_self');
+    
+    modalPortal.modal();
+    
+};
+
+
+var portalinscripcionpre=function(){
+    modalPortal.find('[name=tituloModal]').html('Por favor seleccione sede');
+    modalPortal.find('[name=linkBa]').val('https://portal.unisimon.edu.co/matricula/index.php/?tipo=pregrado');
+    modalPortal.find('[name=tipoBa]').val('_blank');
+    modalPortal.find('[name=linkCu]').val('http://matricula.unisimoncucuta.edu.co/websiaa/modulos/aspirantes/');
+    modalPortal.find('[name=tipoCu]').val('_blank');
+    
+    modalPortal.modal();
+};
+var portalinscripcionpos=function(){
+    modalPortal.find('[name=tituloModal]').html('Por favor seleccione sede');
+    modalPortal.find('[name=linkBa]').val('https://portal.unisimon.edu.co/inscripcion_/?niv=postgrados');
+    modalPortal.find('[name=tipoBa]').val('_blank');
+    modalPortal.find('[name=linkCu]').val('http://matricula.unisimoncucuta.edu.co/websiaa/modulos/aspirantes/');
+    modalPortal.find('[name=tipoCu]').val('_blank');
+    
+    modalPortal.modal();
+};
+
+var portalinscripcionprelinea=function(ins_linea){
+    modalPortal.find('[name=tituloModal]').html('Por favor seleccione sede');
+	if(ins_linea=="pregrado" || ins_linea=="pregrados"){
+	    modalPortal.find('[name=linkBa]').val('https://portal.unisimon.edu.co/matricula/index.php/?tipo=pregrado');
+	}else{
+	    modalPortal.find('[name=linkBa]').val('https://portal.unisimon.edu.co/inscripcion/?niv=' + ins_linea);
+	}
+    modalPortal.find('[name=tipoBa]').val('_blank');
+    modalPortal.find('[name=linkCu]').val('http://matricula.unisimoncucuta.edu.co/websiaa/modulos/aspirantes/');
+    modalPortal.find('[name=tipoCu]').val('_blank');
+    
+    modalPortal.modal();
+};
+
+
+
+
+
+}
+/*
+     FILE ARCHIVED ON 11:18:00 Jun 01, 2020 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 22:44:17 May 03, 2021.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  captures_list: 398.612
+  exclusion.robots: 0.137
+  exclusion.robots.policy: 0.126
+  RedisCDXSource: 1.81
+  esindex: 0.013
+  LoadShardBlock: 370.669 (3)
+  PetaboxLoader3.datanode: 387.743 (5)
+  CDXLines.iter: 22.4 (3)
+  load_resource: 108.272 (2)
+  PetaboxLoader3.resolve: 39.925 (2)
+*/
